@@ -1,15 +1,25 @@
 {
   "name": "tailwind-css",
   "version": "1.0.0",
-  "description": "This website is created by the tailwind css",
+  "description": "This is all about learning of Tailwind CSS.",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateenNawaz86/Tailwind-CSS.git"
   },
   "keywords": [],
   "author": "Mateen Nawaz",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateenNawaz86/Tailwind-CSS/issues"
+  },
+  "homepage": "https://github.com/mateenNawaz86/Tailwind-CSS#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1",
     "vite": "^3.2.1"
   }
