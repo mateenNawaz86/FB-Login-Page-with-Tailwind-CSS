@@ -1,13 +1,18 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   return (
     <>
       <header>
         <nav className=" bg-purple-800 text-white flex justify-between">
-          <img src={logo} alt="logo" className="h-8 pl-8 mt-3 cursor-pointer" />
-          <ul className="px-8 py-4 flex space-x-8 justify-end">
+          <img
+            src={logo}
+            alt="logo"
+            className="h-12 pl-4 py-2  cursor-pointer"
+          />
+          <ul className=" hidden px-8 py-4 space-x-8 md:flex md:justify-end md:items-baseline">
             <li className="cursor-pointer hover:text-teal-400 font-medium">
               Home
             </li>
@@ -21,6 +26,7 @@ const Navbar = () => {
               Contact Us
             </li>
           </ul>
+          <FiMenu className=" md:hidden mr-4 h-12 text-3xl cursor-pointer hover:text-pink-700" />
         </nav>
       </header>
     </>
