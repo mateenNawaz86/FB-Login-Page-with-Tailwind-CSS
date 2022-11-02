@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-red-800 text-3xl font-bold underline">App</h1>
-    </div>
+    <>
+      <Navbar />
+      <HomePage />
+    </>
   );
 };
 
