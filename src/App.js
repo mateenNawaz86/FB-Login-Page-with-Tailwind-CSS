@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import HomePage from "./components/HomePage";
+import LogIn from "./components/Login-page";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <HomePage />
+      <LogIn />
     </>
   );
 };
